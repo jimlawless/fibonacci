@@ -63,7 +63,7 @@ begin:
     sta var_b
     lda var_c+1
     sta var_b+1
-; decreement the loop counter 
+; decrement the loop counter 
 ; and branch to the loop if we're not zero
     dec loop_count
     bne begin
