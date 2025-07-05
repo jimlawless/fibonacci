@@ -45,8 +45,8 @@ begin:
     ldx var_c
 ; the .A register alread has the high-order
 ; byte.  We just needed to load .X before calling
-; the BASIC ROM routine at $BDCD to display a 
-; signed 16-bit number in .A and .X
+; the BASIC ROM routine at $BDCD to display an 
+; unsigned 16-bit number in .A and .X
 ;
 ; print c
     jsr linprt
